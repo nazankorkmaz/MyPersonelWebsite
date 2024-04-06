@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personel Portfolio Website|Sarah Rahman</title>
+
+    <link rel="stylesheet" href="img/">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Satisfy&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="containernew">
+        <!-- Header Section -->
+        <section id="header">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#"><span>N</span>KORKMAZ</a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resumes</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonial">Testimonial</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="bottom-left">
+                    <h1 class="name">Nazan<span>  Korkmaz</span></h1>
+                    <h3 class="profession">Yazılım Geliştirici</h3>
+            
+                    <p class="short-desc">
+                        Merhaba! 
+                        Hakkımda daha fazla bilgi edinmek için sayfamda gezinebilir, özgeçmişimi indirebilir ve bana ulaşabilirsiniz.
+                   </p>
+
+                    <a href="assets/my-cv.pdf" class="btn-cv" target="_blank" download>Download CV</a>
+                </div>
+
+                <div class="bottom-right">
+                    <a href="https://github.com/nazankorkmaz"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/nazan-korkmaz-0aa24b225/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--About Section-->
+       
+            <section id="about">
+                <div class="about-left">
+                    <img src="img/arka_plan_y.png" alt="user-slideimg" class="shape" >
+                    <!--<img src="img/zyro-image.png" alt="girl" class="girl">-->
+                </div>
+                <div class="about-right">
+                    <div class="section-title">
+                        <h2 class="sub-title">About Me</h2>
+                        <h3 class="title"></h3>
+                    </div>
+                    <p class="desc">
+                        Şu anda bilgisayar mühendisliği son sınıfta lisans eğitimime devam ediyorum . 
+                                Masaüstü uygulama geliştirme ve görüntü işleme alanlarıyla
+                                ilgileniyorum. Bireysel olarak mobil uygulama
+                                geliştirmeye çalışıyorum. Hobi olarak arduino ile ilgileniyorum. Zorunlu stajlarımı
+                                tamamladığım lisans eğitimimin son döneminde
+                                deneyimimi arttırmak amacıyla size ulaşıyorum.
+                    </p>
+    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Yetenekler</p>
+                        <p class="tab-links active-link" onclick="openTab('experience')"></p>
+                        <p class="tab-links active-link" onclick="openTab('education')"></p>
+                      
+                    </div>
+    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>C - C++ </span> <br>
+                                <div class="progress " role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 80%"></div>
+                                  </div>
+                            </li>
+                            <li>
+                                <span>Python</span> <br>
+                                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%"></div>
+                                  </div>
+                                
+                            </li>
+                            <li>
+                                <span>HTML - CSS Bootstrap</span> <br>
+                                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%"></div>
+                                  </div>
+                            </li>
+                            <li>
+                                <span>Java</span> <br>
+                                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 40%"></div>
+                                  </div>
+                            </li>
+                            <li>
+                                <span>Kotlin</span> <br>
+                                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 65%"></div>
+                                  </div>
+                            </li>
+                            <li>
+                                <span>SQL</span> <br>
+                                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%"></div>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    
+                </div>
+            </section>
+       
+        
+
+        <!--Services Section-->
+
+        <section id="resume">
+            <div class="section-title">
+                <h2 class="sub-title">My Resume</h2>
+                <h3 class="title">Education</h3>
+            </div>
+            <div class="resumes">
+                <div class="flex-con">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                <h2>İstanbul Beykent Üniversitesi</h2>
+                <p>2020 - 2024</p>
+                <p>Tam burslu olarak Bilgisayar Mühendisliği (Tr) bölümünde 4.sınıfta öğrenimime devam ediyorum.</p>
+                <p>AGNO : 3.78</p>
+                </div>
+
+                <div  class="flex-con">
+                    <i class="fa-solid fa-laptop-code"></i>
+                <h2>42 İstanbul</h2>
+                <p>2022 - 2023</p>
+                <p> Uluslararası eğitmensiz yazılım okulu</p>
+                <p>Yapmış olduğum proje ve c dili ile ilgili çalışmalarıma Github hesabımdan erişebilirisiniz.</p>
+                </div>
+
+                <div  class="flex-con">
+                    <i class="fa-solid fa-shield-halved"></i>
+                <h2>ASELSAN İş Hayatı 101</h2>
+                <p>2022</p>
+                <p> Burada 3 ay boyunca 17 farklı alanda deneyimli hocalarımızda ders alarak programı
+                    ilk mezunlardan biri olarak tamamladım.
+                </p>
+                </div>
+               
+
+               
+            </div>
+
+        </section>
+
+        <section id="resume">
+            <div class="section-title">
+                
+                <h3 class="title">Experience</h3>
+            </div>
+            <div class="resumes">
+                <div class="flex-con">
+                    <i class="fa-solid fa-microchip"></i>
+                <h2>Demsay Elektronik </h2>
+                <p>Temmuz 2023</p>
+                <p>İlk zorunlu stajımı Ar-Ge departmanında gömülü yazılım üzerine gerçekleştirdim.</p>
+                <p>STM32, ESP32, MG32 kartları, haberleşme sistemleri, OLED, TFT,LCD ve teknolojileri üzerinde çalıştım.</p>
+                <p>projelerime Github hesabımdan erişebilirsiniz.</p>
+                </div>
+
+                <div  class="flex-con">
+                    <i class="fa-solid fa-rocket"></i>
+                <h2>BAYKAR</h2>
+                <p> Ekim 2023 - Şubat 2024</p>
+                <p> Gömülü yazılım departmanında gönüllü ve zorunlu stajlarımı tamamladım.</p>
+                </div>
+
+                <div  class="flex-con">
+                    <i class="fa-solid fa-computer"></i>
+                <h2>TÜBİTAK BİLGEM YTE-BOOTCAMP 2023</h2>
+                <p> Ekim 2023</p>
+                <p> Java, Figma, Spring ve Mikroservis konularında eğitim aldım.</p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="resume">
+            <div class="section-title">
+                
+                <h3 class="title">Project</h3>
+            </div>
+            <div class="resumes">
+                <div class="flex-con">
+                    <i class="fa-brands fa-space-awesome"></i>
+                <h2>Sabit Kanat Dikey Kalkışlı Savaşan İHA </h2>
+                <p>Kasım 2022 - Devam</p>
+                <p>Onaylı Lisans Öğrencisi Katılımlı Araştırma Projesi (LÖAP)</p>
+                <p>Yazılım ekibinde görev alarak yer kontrol ve görüntü işleme yazılımları üzerinde çalışıyorum.</p>
+                </div>
+
+                <div class="flex-con">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                <h2>Let's </h2>
+                <p>Aralık 2023 - Devam</p>
+                <p>Bitirme Projesi</p>
+                <p>  Kotlin ve Firebase ile geliştirdiğimiz projemiz, kullanıcıların sağlıklı yaşam serüvenlerini birbirleriyle paylaşabileceği; egzersizlerini, diyetlerini veya tariflerini paylaşarak birbirlerini motive edebileceği ve etkileşim halinde bulunabilecekleri bir mobil uygulamadır.
+                </p>
+                </div>
+                
+            </div>
+
+            
+
+        </section>
+
+        <!--Portfolio Section-->
+
+        <section id="portfolio">
+            <div class="section-title">
+                <h2 class="sub-title">My Portfolio</h2>
+                <h3 class="title">Some of  Works</h3>
+            </div>
+
+            <div class="project-list">
+                <div class="project">
+                    <img src="img/demsay.jpeg" alt="project1">
+                    <div class="layer">
+                        <h2>Gömülü Projeleri</h2>
+                        <p>Arduino, ESP32, MG32 ve OLED gibi parçalarla yaptığım projelerden bazılarına buradan erişebilirsiniz.</p>
+                        <a href="https://github.com/nazankorkmaz/ESP32"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/42.jpeg" alt="project2">
+                    <div class="layer">
+                        <h2>42 İstanbul ve C projeleri</h2>
+                        <p>42 İstanbul'da yapmış olduğum C ile yazılmış projelere buradan ulaşabilirsiniz.</p>
+                        <a href="https://github.com/nazankorkmaz?tab=repositories"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/python.jpeg" alt="project3">
+                    <div class="layer">
+                        <h2>OpenCV ve PYQT5</h2>
+                        <p>Python ile yaptığım görüntü işleme ve masaüstü uygulamlarına buradan erişebilirisiniz.</p>
+                        <a href="https://github.com/nazankorkmaz?tab=repositories"><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Testiominal Section-->
+        <section id="testimonial">
+            <div class="section-title">
+                <h2 class="sub-title">Testimonials</h2>
+                <h3 class="title">People What Are Saying</h3>
+            </div>
+            <div class="testimonial-list">
+                <div class="review">
+                    <div class="rev-im">
+                        <i class="fa-solid fa-quote-left"></i>
+                         <img src="img/referans.png" alt="" class="review-img">
+                        <p class="review-text">
+                             Referans Mektubu
+                        <a href="#">Büyütmek için tıklayınız<i class="fa-solid fa-magnifying-glass"></i> </a>
+                        </p>
+                    </div>
+                    
+                    <div class="review-by">
+                        <div class="img">
+                            <img src="img/demsay.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="name">Onur İlyas YAVUZ</h3>
+                            <h5 class="resignation">R&D Manager</h5>
+                        </div>
+                    </div>
+                </div>
+<!--
+
+
+                <div class="review">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="review-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quasi magni, tempora sunt porro numquam maxime repellat laborum illum incidunt sint nisi quibusdam itaque eaque quidem neque eveniet nulla commodi.
+                    </p>
+                    <div class="review-by">
+                        <div class="img">
+                            <img src="img/amy.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="name">Natash Malkova</h3>
+                            <h5 class="resignation">Graphics Designer</h5>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="review-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quasi magni, tempora sunt porro numquam maxime repellat laborum illum incidunt sint nisi quibusdam itaque eaque quidem neque eveniet nulla commodi.
+                    </p>
+                    <div class="review-by">
+                        <div class="img">
+                            <img src="img/natash.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3 class="name">Amy Koney</h3>
+                            <h5 class="resignation">Digital Marketer</h5>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+            </div>
+
+        </section>
+
+        <!--Contact Section'
+        -->
+
+        <section id="contact">
+
+            <div class="section-title">
+                <h2 class="sub-title">Contact</h2>
+                <h3 class="title">Get in Touch</h3>
+            </div>
+
+            <div class="content">
+                <div class="contact-left">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="You Name" required>
+
+                        <input type="email"
+                        name="email"
+                        id="email"
+                        placeholder="You Email"
+                        required>
+
+                        <textarea name="message" id="message"  rows="6" placeholder="Your message"></textarea>
+
+                        <button type="submit">Send Message <i class="fa-solid fa-arrow-circle-right"></i></button>
+                    </form>
+                </div>
+
+                <div class="v1"></div>
+                <div class="contact-right">
+                    <div class="col address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info">
+                            <h2 class="title">Address</h2>
+                            <p>Beylikdüzü/İSTANBUL</p>
+                        </div>
+                    </div>
+
+                    <div class="col phone">
+                        <i class="fa-solid fa-phone-alt"></i>
+                        <div class="info">
+                            <h2 class="title">Phone</h2>
+                            <p>+880 123 4567 890</p>
+                        </div>
+                    </div>
+
+                    <div class="col email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="info">
+                            <h2 class="title">Email</h2>
+                            <p>nazzankorkmazz@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col website">
+                        <i class="fa-solid fa-globe"></i>
+                        <div class="info">
+                            <h2 class="title">Website</h2>
+                            <p>www.nazankorkmaz.com</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright"> <!--Alt 184 ile copyrigt yapılır-->
+                Copyright © NKorkmaz |Made by 
+                <i class="fa-solid fa-heart"> By <a href="#">NKorkmaz</a></i>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
